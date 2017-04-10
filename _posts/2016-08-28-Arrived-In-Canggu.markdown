@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Arrived in Canggu"
 date:   2016-08-28 19:55:16 +0800
 categories: Life
 ---
