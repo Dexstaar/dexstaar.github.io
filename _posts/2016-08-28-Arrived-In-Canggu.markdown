@@ -13,6 +13,12 @@ categories: Life
 
 
 
+
+----------------------
+
+The most stressful moment during a trip is moving to the hotel with a heavy suit case when I arrive at a new place and everything is unfamiliar.
+
+
 <img src="/assets/IMG_0648.JPG" width="500px" >{: .center-image }
 <In the plane to Bali>
 
@@ -23,11 +29,8 @@ categories: Life
 }
 
 
-----------------------
 
-The most stressful moment during a trip is moving to the hotel with a heavy suit case when I arrive at a new place and everything is unfamiliar.
 
-새로운 곳에 도착 후 무거운 수트케이스를 끌고 환경, 사람, 언어, 지리 등 모든것이 생소한 상황에서 숙소까지 도착하는 것은 여행에서 가장 스트레스 받는 항목이다.
 
 I still remember the first time I visit Shanghai. It was cold, rainy evening in late autumn and I felt like I was in the movie Blade Runner when I saw the street with Chinese character neon signs and fog rise from the street (May be it's because I took the maglev train from the airport). And the fake cab overcharged me 10 times expensive than normal fare and dropped me in a wrong place.
 
