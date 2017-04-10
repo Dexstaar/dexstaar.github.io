@@ -7,6 +7,9 @@ categories: Life
 
 ![My helpful screenshot]({{ site.url }}/assets/IMG_0648.JPG)
 
+![In the plane to Bali](/assets/IMG_0648.JPG){:class="img-responsive"}
+
+
 img_0648<In the plane to Bali>
 
 The most stressful moment during a trip is moving to the hotel with a heavy suit case when I arrive at a new place and everything is unfamiliar.
