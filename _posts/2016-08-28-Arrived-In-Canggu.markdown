@@ -7,7 +7,7 @@ categories: Life
 
 ![My helpful screenshot]({{ site.url }}/assets/IMG_0648.JPG)
 
-![In the plane to Bali](/assets/IMG_0648.JPG){:class="img-responsive"}
+![In the plane to Bali](/assets/IMG_0648.JPG  =250x)
 
 
 img_0648<In the plane to Bali>
