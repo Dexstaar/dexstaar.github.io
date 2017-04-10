@@ -10,7 +10,7 @@ categories: Life
 ![In the plane to Bali](/assets/IMG_0648.JPG  =250x)
 
 
-<img src="https://github.com/assets/IMG_0648.JPG" width="48">
+<img src="/assets/IMG_0648.JPG" width="48">
 <In the plane to Bali>
 
 img_0648<In the plane to Bali>
