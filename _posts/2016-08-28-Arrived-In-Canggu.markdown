@@ -5,7 +5,7 @@ date:   2016-08-28 19:55:16 +0800
 categories: Life
 ---
 
-![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+![My helpful screenshot]({{ site.url }}/assets/IMG_0648.JPG)
 
 img_0648<In the plane to Bali>
 
