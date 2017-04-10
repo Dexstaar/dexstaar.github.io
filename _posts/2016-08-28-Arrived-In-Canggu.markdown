@@ -10,6 +10,9 @@ categories: Life
 ![In the plane to Bali](/assets/IMG_0648.JPG  =250x)
 
 
+<img src="https://github.com/assets/IMG_0648.JPG" width="48">
+<In the plane to Bali>
+
 img_0648<In the plane to Bali>
 
 The most stressful moment during a trip is moving to the hotel with a heavy suit case when I arrive at a new place and everything is unfamiliar.
