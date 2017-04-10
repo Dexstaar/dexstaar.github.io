@@ -9,6 +9,7 @@ Hi, My name is Hoon. I'm a computer programmer and working for an e-commerce com
 Since I travelled South East Asia in 2016, I've found that Singapore is a great country to people who want to work in internationalized environment and decided to live here. My blog post will be related my life story and tech stuff. I'm holding posting for a while but will be back soon. Stay tuned.
 
 
+
 Github: {% include icon-github.html username="dexstaar" %}
 Email / Hangouts: - dexstaar@gmail.com
 
