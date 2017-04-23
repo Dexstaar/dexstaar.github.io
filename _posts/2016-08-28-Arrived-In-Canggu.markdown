@@ -19,17 +19,20 @@ To avoid struggling, I've booked airport pick-up to the hotel, but the driver di
 
 Next day, I had a look around Canggu to buy some daily necessities. Easily got most, but unable to find a place that sell local SIM card here. Furthermore, it's also hard to call a cab using app either uber or bludbird. That's the reason why a lot of people ride motor bikes. I prefer walking for exercising, but should think about renting a bike to find SIM card seller.
 
+
+
 <img src="/assets/IMG_0664.JPG" width="500px" >
 <img src="/assets/IMG_0659.JPG" width="500px" >
-
 <Dojo Bali>
+
+
 
 I've registered in Dojo Bali, which is a co-working space here. It's peace and quiet place and has cute swimming pool(?!).
 
 
 
-<img src="/assets/IMG_0653.JPG" width="500px" >
 
+<img src="/assets/IMG_0653.JPG" width="500px" >
 <Batu Bolong beach>
 
 
