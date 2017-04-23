@@ -36,7 +36,7 @@ Another passion that I've found here is Yoga. After going surfing in the morning
 
 Canggu is a perfect place to have a vacation to chill out with surfing and Yoga. But I've just rounded off the life here and will move to Ubud in order to do what I have to do. My real digital nomadic life will be start there soon.
 
-<img src="/assets/screen-shot-2016-09-07-at-6-44-27-pm.JPG" width="500px">
+<img src="/assets/Screen Shot 2016-09-07 at 6.44.27 PM.png" width="500px">
 <br/>
 [Sunset on Echo Beach]
 <br/>
