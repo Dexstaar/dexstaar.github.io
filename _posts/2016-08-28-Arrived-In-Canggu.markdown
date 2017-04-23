@@ -10,6 +10,7 @@ categories: Life
 
 <img src="/assets/IMG_0648.JPG" width="500px">
 <br/>
+print "Command-line arguments: (<In the plane to Bali>)\n";
 <In the plane to Bali>
 <br/>
 
