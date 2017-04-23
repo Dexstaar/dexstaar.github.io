@@ -14,27 +14,11 @@ categories: Life
 
 
 
-----------------------
+
 
 The most stressful moment during a trip is moving to the hotel with a heavy suit case when I arrive at a new place and everything is unfamiliar.
 
-
-<img src="/assets/IMG_0648.JPG" width="500px" >{: .center-image }
-<In the plane to Bali>
-
-.center-image
-{
-    margin: 0 auto;
-    display: block;
-}
-
-
-
-
-
 I still remember the first time I visit Shanghai. It was cold, rainy evening in late autumn and I felt like I was in the movie Blade Runner when I saw the street with Chinese character neon signs and fog rise from the street (May be it's because I took the maglev train from the airport). And the fake cab overcharged me 10 times expensive than normal fare and dropped me in a wrong place.
-
-처음 상하이를 방문했을때의 기억은 지금도 생생하다. 비가 추적추적 내리던 쌀쌀한 늦가을 밤에 도착 후 자기부상 열차를 타고 도착한 기차역에서 택시를 타기위해 밖으로 나왔을때, 중국어로 되어있는 네온사인, 여기저기서 수증기가 피어오르는 그 광경은 나를 마치 영화 블레이드 러너의 무대같은 미래도시의 뒷골목에 데리고 온 느낌이었다. (아마 자기 부상 열차를 타고 와서 그런지도).  그곳에서 탄 가짜택시는 무려 10배의 금액을 받아 놓곤 나를 엉뚱한 목적지로 데려다 놓았다.
 
 To avoid struggling, I've booked airport pick-up to the hotel, but the driver didn't show up at the arrival gate. And the hotel front desk asked me to grab a taxi when I called there. I was just supposed to take an overpriced airport taxi. (I knew the normal fare but didn't want to spend much time there for price negotiation in the very late night).
 
