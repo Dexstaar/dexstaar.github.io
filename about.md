@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, My name is Hoon. I'm a computer programmer and working for an e-commerce company as a full-stack software engineer in Singapore. I'm currently using React for front-end and Java for back-end, and thinking about starting other tech areas in a near future.
 
-Since I travelled South East Asia in 2016, I've found that Singapore is a great country to people who want to work in internationalized environment and decided to live here. My blog post will be related my life story and tech stuff. I'm holding posting for a while but will be back soon. Stay tuned.
+Since I travelled South East Asia in 2016, I've found that Singapore is a great country for people who want to work in international environment and decided to live here. I'll post stories about living and tech.
 
 
 
