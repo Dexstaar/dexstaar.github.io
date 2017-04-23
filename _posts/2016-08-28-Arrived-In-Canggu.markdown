@@ -9,11 +9,9 @@ categories: Life
 
 
 <img src="/assets/IMG_0648.JPG" width="500px">
+[In the plane to Bali]
 <br/>
-print "Command-line arguments: (<In the plane to Bali>)\n";
-print "<In the plane to Bali>";
 
-<br/>
 
 
 
@@ -29,7 +27,7 @@ Next day, I had a look around Canggu to buy some daily necessities. Easily got m
 <br/>
 <img src="/assets/IMG_0659.JPG" width="500px" >
 <br/>
-<Dojo Bali>
+[Dojo Bali]
 <br/>
 
 
@@ -41,7 +39,7 @@ I've registered in Dojo Bali, which is a co-working space here. It's peace and q
 
 <img src="/assets/IMG_0653.JPG" width="500px" >
 <br/>
-<Batu Bolong beach>
+[Batu Bolong beach]
 <br/>
 
 
