@@ -9,9 +9,10 @@ categories: Life
 
 
 <img src="/assets/IMG_0648.JPG" width="500px">
+<br/>
 [In the plane to Bali]
 <br/>
-
+<br/>
 
 
 
@@ -29,7 +30,7 @@ Next day, I had a look around Canggu to buy some daily necessities. Easily got m
 <br/>
 [Dojo Bali]
 <br/>
-
+<br/>
 
 
 I've registered in Dojo Bali, which is a co-working space here. It's peace and quiet place and has cute swimming pool(?!).
@@ -41,7 +42,7 @@ I've registered in Dojo Bali, which is a co-working space here. It's peace and q
 <br/>
 [Batu Bolong beach]
 <br/>
-
+<br/>
 
 
 After watching people are going surfing at Batu Bolong beach near the hotel, I have been trying to contact surfing classes but one is fully booked until 1 Sep and others don't answer. The first plan is enjoying surfing here before moving to Ubud in Sep, but I have bad feeling that I can go surfing while I'm staying in Canggu.
