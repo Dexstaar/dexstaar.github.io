@@ -10,13 +10,11 @@ Since I had arrived Singapore, surprisingly I was contacted by a Google recruite
 
 These days, many companies have coding interview processes when they hire computer programmers, Google famous while board coding interview is one of the originators to make this widespread world-widely. When an interviewer asks several algorithm questions, a candidates choose a language to use and write down compilable source code on a whiteboard. A interviewer sometimes gives constraint conditions or hints when a candidate is stuck. It is quite effective method to figure out candidate's both programming knowledge and communication within a short time.
 
+<br />
+[Cracking the coding interview](https://youtu.be/2cf9xo1S134)
+<br /><br />
 
 
-[![Cracking the coding interview]
-(https://youtu.be/2cf9xo1S134 "Cracking the coding interview")
-
-
-<Cracking the coding interview>
 
 I have been practicing algorithm coding using online services since I stayed in Bali thus giving me little confidence to challenge. Since I was in the hiring process, I tried to practice programming with pan and paper or using a simple text editor and tried to avoid using IDE as much as I could. Also asked a programmer friend who i met in a meetup and practiced the white board coding interview in a  borrowed meeting room.
 
