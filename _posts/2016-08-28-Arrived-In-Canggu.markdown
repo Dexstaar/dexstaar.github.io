@@ -10,7 +10,7 @@ categories: Life
 
 <img src="/assets/IMG_0648.JPG" width="500px">
 <br/>
-- In the plane to Bali
+In a plane to Bali
 <br/>
 <br/>
 
@@ -28,7 +28,7 @@ Next day, I had a look around Canggu to buy some daily necessities. Easily got m
 <br/>
 <img src="/assets/IMG_0659.JPG" width="500px" >
 <br/>
-- Dojo Bali
+Dojo Bali
 <br/>
 <br/>
 
