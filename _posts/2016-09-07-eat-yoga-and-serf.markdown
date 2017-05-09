@@ -11,7 +11,7 @@ It's been 10 days since I arrived Bali. Frankly speaking, I've just too much enj
 
 <img src="/assets/IMG_0742.JPG" width="500px">
 <br/>
-[Surfers around Batu Bolong beach]
+- Surfers around Batu Bolong beach
 <br/>
 <br/>
 
@@ -20,7 +20,7 @@ The first surfing was so enjoyable, but that was the straw that broke the camel'
 
 <img src="/assets/IMG_0738.JPG" width="500px">
 <br/>
-[Party at Deus]
+- Party at Deus
 <br/>
 <br/>
 
@@ -29,7 +29,7 @@ Another passion that I've found here is Yoga. After going surfing in the morning
 
 <img src="/assets/IMG_0733.JPG" width="500px">
 <br/>
-[The Practice]
+- The Practice
 <br/>
 <br/>
 
@@ -38,6 +38,6 @@ Canggu is a perfect place to have a vacation to chill out with surfing and Yoga.
 
 <img src="/assets/Screen Shot 2016-09-07 at 6.44.27 PM.png" width="500px">
 <br/>
-[Sunset on Echo Beach]
+- Sunset on Echo Beach
 <br/>
 <br/>
