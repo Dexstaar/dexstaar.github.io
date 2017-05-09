@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What's new in Java 8: Lambda"
+title:  "Interviewed with Google"
 date:   2016-11-06 19:55:16 +0800
 categories: Life
 ---
