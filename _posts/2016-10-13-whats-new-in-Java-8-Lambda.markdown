@@ -9,6 +9,7 @@ It seems little late to talk about new features in Java 8 at this point of time,
 
 I also didn't catch up the new features of Java because I didn't use it in my previous company and tried to learn a different language. But I can't avoid it anymore because I still choose it as a primary language when I participate in Coding test.
 
+<br /><br />
 
 
 # Introduction to Lambda
