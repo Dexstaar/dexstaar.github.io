@@ -9,7 +9,7 @@ categories: Life
 It's been a month I've stayed in Bali. I was thinking about staying here more than one month but realized that I can not stay more that 30 days here unless I got an arrival visa. Now I'm at the airport and waiting for the flight to Singapore.
 
 
-<img src="/assets/img_0810.JPG" width="500px">
+<img src="/assets/IMG_0810.JPG" width="500px">
 - Increasing footprints of my journey on my Mac
 
 
@@ -32,15 +32,15 @@ I've moved my accommodation 3 times. a hotel and a homestay in Canggu, and two h
 I prefer the location that I stayed lastly than Ubud center. There is a small town to the opposite side of the monkey forest from the center, and I'd love the stay there if I come to Ubud again. I've explored this place since I moved the co-working space from Hubud to Outpost. I loved the new office because it is much more quiet and has wider desks, air-conditioned space, better condition to concentrate for individuals. It's my favorite among the co-working spaces that I've visited in Bali.
 
 
-<img src="/assets/img_0796.JPG" width="500px">
+<img src="/assets/IMG_0796.JPG" width="500px">
 - Ubud Yoga Center
 
-<img src="/assets/img_0804.JPG" width="500px">
+<img src="/assets/IMG_0804.JPG" width="500px">
 - Taman Hati Studio
 
 After moving, I've explorered yoga studios around there because Yoga Barn is little far from there. Ubud Yoga Center is in a luxurious building and the harmony with nature is captivating. Unfortunately, it's only running hot yoga studio, and I couldn't breath with the temperature during the class. Another place is call Haman Kandi studio, which is run by local yogi master. The class didn't attract me very much. There's also a pilates studio called Movement Matters and I'd like to try someday if I visit Ubud again. There is a shortcut to Ubud center belong the monkey forest, which is not shown on Google map, so that people can go to opposite side quickly.
 
-<img src="/assets/img_0806.JPG" width="500px">
+<img src="/assets/IMG_0806.JPG" width="500px">
 
 - My daily food,  Nasi Goreng Special of D'Warung
 
