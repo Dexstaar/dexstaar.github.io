@@ -11,9 +11,7 @@ Since I had arrived Singapore, surprisingly I was contacted by a Google recruite
 These days, many companies have coding interview processes when they hire computer programmers, Google famous while board coding interview is one of the originators to make this widespread world-widely. When an interviewer asks several algorithm questions, a candidates choose a language to use and write down compilable source code on a whiteboard. A interviewer sometimes gives constraint conditions or hints when a candidate is stuck. It is quite effective method to figure out candidate's both programming knowledge and communication within a short time.
 
 <br />
-<embed src="https://youtu.be/2cf9xo1S134"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
+<iframe width="854" height="480" src="https://youtu.be/2cf9xo1S134" frameborder="0" allowfullscreen></iframe>
 <br /><br />         
 [Cracking the coding interview](https://youtu.be/2cf9xo1S134)
 <br /><br />
