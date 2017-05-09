@@ -11,7 +11,8 @@ I also didn't catch up the new features of Java because I didn't use it in my pr
 
 
 
-* The introduction of Lambda
+# Introduction to Lambda
+## Introduction to Lambda
 
 Lambda is not very familiar but also not a totally new one for me. When I was coding with C#, I saw a strange mark "=>" and founded and it's called Lambda on the internet (It's used like "->" in Java). But I couldn't understand it and didn't try to figure out very much at that time. Since it became the hottest topic of 8, let's look at it more carefully this time.
 
