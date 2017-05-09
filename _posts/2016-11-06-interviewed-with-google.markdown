@@ -12,9 +12,7 @@ These days, many companies have coding interview processes when they hire comput
 
 <br />
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2cf9xo1S134" frameborder="0" allowfullscreen></iframe>
-<br /><br />         
-[Cracking the coding interview](https://youtu.be/2cf9xo1S134)
-<br /><br />
+<br /><br />  
 
 
 
@@ -22,6 +20,7 @@ I have been practicing algorithm coding using online services since I stayed in 
 
 First step was phone screening, I was talking to the recruiter on the phone and he asked some questions about my career background. Then, he also asked some technical short answer questions such as web technology, time complexity, linux commands and sql. A few days later, I was invited to the next step. Second step was on-line tech interview using Hangouts and gDocs. A interviewer was the person who is doing the same role in another country and he firstly asked about experience of my tech stack, then provided some hypothetical questions and asked me how to solve the problem technically. Then some simple coding test using a shared gDoc was followed.
 
+<br/>
 <img src="/assets/IMG_0957.JPG" width="500px">
 <br/>
  Google office entrance
