@@ -12,8 +12,9 @@ It's been a month I've stayed in Bali. I was thinking about staying here more th
 
 
 <img src="/assets/IMG_0810.JPG" width="500px">
-Increasing footprints of my journey on my Mac
-
+<br/>
+ Increasing footprints of my journey on my Mac
+<br/><br/>
 
 
 Things that I've been doing in Bali
@@ -37,11 +38,14 @@ I prefer the location that I stayed lastly than Ubud center. There is a small to
 
 
 <img src="/assets/IMG_0796.JPG" width="500px">
-- Ubud Yoga Center
+<br/>
+ Ubud Yoga Center
+<br/><br/>
 
 <img src="/assets/IMG_0804.JPG" width="500px">
-- Taman Hati Studio
-
+<br/>
+ Taman Hati Studio
+<br/><br/>
 
 
 After moving, I've explorered yoga studios around there because Yoga Barn is little far from there. Ubud Yoga Center is in a luxurious building and the harmony with nature is captivating. Unfortunately, it's only running hot yoga studio, and I couldn't breath with the temperature during the class. Another place is call Haman Kandi studio, which is run by local yogi master. The class didn't attract me very much. There's also a pilates studio called Movement Matters and I'd like to try someday if I visit Ubud again. There is a shortcut to Ubud center belong the monkey forest, which is not shown on Google map, so that people can go to opposite side quickly.
@@ -49,8 +53,9 @@ After moving, I've explorered yoga studios around there because Yoga Barn is lit
 
 
 <img src="/assets/IMG_0806.JPG" width="500px">
+<br/>
  My daily food,  Nasi Goreng Special of D'Warung
-
+<br/><br/>
 
 
 I've had a lot of flexibility of this Bali trip because I stayed here for such a long time. But huge flexibility is not always helpful. I've spent money much more than I planned and couldn't spent much time things that I was supposed to do. I should spend less time for exploring, and find a way to spend my time more productively. But there are so many places that I'd like to explorer. Next stop is Singapore.
