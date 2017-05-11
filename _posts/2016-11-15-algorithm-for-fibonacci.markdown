@@ -9,13 +9,13 @@ categories: Programming
 Recently I attended an online coding test. I was pretty confident with it because practiced algorithm for a couple of month but when I received the question, it looked quite complicated at first. A few minutes later, I realized that it is a kind of fibonacci question. I'll make an example with a typical fibonacci because I am not allowed to reveal the question.
 
 Fibonacci is a combination of numbers with sum of two previous elements;
-{% highlight %}
+{% highlight java %}
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ……..
 {% endhighlight %}
 
 The sequence Fn of Fibonacci numbers is defined by the recurrence relation.
 
-{% highlight %}
+{% highlight java %}
 Fn = Fn-1 + Fn-2
 {% endhighlight %}
 
