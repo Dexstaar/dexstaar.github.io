@@ -62,7 +62,7 @@ The first 4 elements of fibonacci can be indicated as the matrix;
 
 
 
-
+<!--
 
 
 
@@ -162,4 +162,4 @@ public class MatrixOlogN {
         arrA[1][1] = z;
     }
 }
-So this is what I should have submitted. One thing that consolable is I couldn't have written it even if I had been aware of the time complexity requirement. I was given an hour for the test but it actually took several hours to understand this linear algebra way. But I regret that I was overestimated my knowledge of algorithm. Practicing algorithm is a kind of daily work-out for programmers and I feel I've been getting more confident for programming since I started practicing it. Failures of coding test always gets me frustrated and have a doubt whether I should keep spending time for it.  I totally fucked up my last promising chance in Singapore. Now it's time to go back to the basement and reorganize myself to make new plans for life.
+So this is what I should have submitted. One thing that consolable is I couldn't have written it even if I had been aware of the time complexity requirement. I was given an hour for the test but it actually took several hours to understand this linear algebra way. But I regret that I was overestimated my knowledge of algorithm. Practicing algorithm is a kind of daily work-out for programmers and I feel I've been getting more confident for programming since I started practicing it. Failures of coding test always gets me frustrated and have a doubt whether I should keep spending time for it.  I totally fucked up my last promising chance in Singapore. Now it's time to go back to the basement and reorganize myself to make new plans for life. -->
