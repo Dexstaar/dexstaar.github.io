@@ -11,7 +11,7 @@ A few years ago, I read a travel log of a Korean architect who lives in Italy. I
 
 
 <br/>
-<img src="/assets/screen-shot-2016-12-25-at-3-35-21-pm.png" width="500px">
+<img src="/assets/screen-shot-2016-12-25-at-3-35-21-pm.png" width="200px">
 <br/>
  Reminiscing Vivaldi in Venezia
 <br/><br/>
@@ -22,7 +22,7 @@ A few years ago, I read a travel log of a Korean architect who lives in Italy. I
 Another book that gave huge influence to my life is a novel written by a Korean computer programmer who lives in New York. It is based on his professional experience in finance industry in New York city and describes how people work there and what would be the attitude that programmers are supposed to have. At that time, I was wondering whether I would keep this career or change to a different area a lot and this book was a kind of lighthouse that motivated me to devote myself to computer programming.
 
 <br/>
-<img src="/assets/screen-shot-2016-12-25-at-3-35-50-pm.png" width="500px">
+<img src="/assets/screen-shot-2016-12-25-at-3-35-50-pm.png" width="200px">
 <br/>
  A Programmer in New York
 <br/><br/>
@@ -42,7 +42,7 @@ I am a programmer in Singapore.
 
 
 <br/>
-<img src="/assets/img_1092.JPG" width="500px">
+<img src="/assets/img_1092.jpg" width="300px">
 <br/>
  At a cafe in Seoul
 <br/><br/>
