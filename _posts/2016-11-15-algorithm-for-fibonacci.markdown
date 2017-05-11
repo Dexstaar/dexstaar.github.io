@@ -77,8 +77,39 @@ screen-shot-2016-11-15-at-4-10-01-pm
 We can implement fibonacci with time complexity O(N) like below.
 
 
+{% highlight java %}
+public class MatrixON {
+    public int fibonacci(int n) {
+        int[][] arrA = {{1,1},{1,0}};
 
+        if(n==0) return 0;
 
+        matrixPower(arrA, n-1);
+
+        return arrA[0][0];
+    }
+
+    private void matrixPower(int[][] arrA, int n) {
+        int[][] arrB = new int[][]{{1,1},{1,0}};
+
+        for(int i=2; i<=n; i++) {
+            multiply(arrA, arrB);
+        }
+    }
+
+    private void multiply(int[][] arrA, int[][] arrB) {
+        int w = arrA[0][0]*arrB[0][0] + arrA[0][1]*arrB[1][0];
+        int x = arrA[0][0]*arrB[0][1] + arrA[0][1]*arrB[1][1];
+        int y = arrA[1][0]*arrB[0][0] + arrA[1][1]*arrB[1][0];
+        int z = arrA[1][0]*arrB[0][1] + arrA[1][1]*arrB[1][1];
+
+        arrA[0][0] = w;
+        arrA[0][1] = x;
+        arrA[1][0] = y;
+        arrA[1][1] = z;
+    }
+}
+{% endhighlight %}
 
 
 
