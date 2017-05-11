@@ -76,39 +76,7 @@ screen-shot-2016-11-15-at-4-10-01-pm
 
 We can implement fibonacci with time complexity O(N) like below.
 
-{% highlight java %}
-public class MatrixON {
-    public int fibonacci(int n) {
-        int[][] arrA = {{1,1},{1,0}};
 
-        if(n==0) return 0;
-
-        matrixPower(arrA, n-1);
-
-        return arrA[0][0];
-    }
-
-    private void matrixPower(int[][] arrA, int n) {
-        int[][] arrB = new int[][]{{1,1},{1,0}};
-
-        for(int i=2; i<=n; i++) {
-            multiply(arrA, arrB);
-        }
-    }
-
-    private void multiply(int[][] arrA, int[][] arrB) {
-        int w = arrA[0][0]*arrB[0][0] + arrA[0][1]*arrB[1][0];
-        int x = arrA[0][0]*arrB[0][1] + arrA[0][1]*arrB[1][1];
-        int y = arrA[1][0]*arrB[0][0] + arrA[1][1]*arrB[1][0];
-        int z = arrA[1][0]*arrB[0][1] + arrA[1][1]*arrB[1][1];
-
-        arrA[0][0] = w;
-        arrA[0][1] = x;
-        arrA[1][0] = y;
-        arrA[1][1] = z;
-    }
-}
-{% endhighlight %}
 
 Let's squeeze little bit more. This method can be optimized to work in O(logN) time complexity. We can do recursive multiplication to get matrixPower(int[][] arrA, int n) in the previous method.
 
@@ -126,41 +94,6 @@ screen-shot-2016-11-15-at-4-51-32-pm
 
 This can be expressed using Java code;
 
-{% highlight java %}
-public class MatrixOlogN {
-    public int fibonacci(int n) {
-        int[][] arrA = {{1,1},{1,0}};
 
-        if(n == 0) return 0;
-
-        matrixPower(arrA, n-1);
-
-        return arrA[0][0];
-    }
-
-    private void matrixPower(int[][] arrA, int n) {
-        if(n <= 1) return;
-
-        int[][] arrB = {{1,1},{1,0}};
-
-        matrixPower(arrA, n/2);
-
-        multiply(arrA, arrA);
-        if(n % 2 != 0) multiply(arrA, arrB);
-    }
-
-    private void multiply(int[][] arrA, int[][] arrB) {
-        int w = arrA[0][0]*arrB[0][0] + arrA[0][1]*arrB[1][0];
-        int x = arrA[0][0]*arrB[0][1] + arrA[0][1]*arrB[1][1];
-        int y = arrA[1][0]*arrB[0][0] + arrA[1][1]*arrB[1][0];
-        int z = arrA[1][0]*arrB[0][1] + arrA[1][1]*arrB[1][1];
-
-        arrA[0][0] = w;
-        arrA[0][1] = x;
-        arrA[1][0] = y;
-        arrA[1][1] = z;
-    }
-}
-{% endhighlight %}
 
 So this is what I should have submitted. One thing that consolable is I couldn't have written it even if I had been aware of the time complexity requirement. I was given an hour for the test but it actually took several hours to understand this linear algebra way. But I regret that I was overestimated my knowledge of algorithm. Practicing algorithm is a kind of daily work-out for programmers and I feel I've been getting more confident for programming since I started practicing it. Failures of coding test always gets me frustrated and have a doubt whether I should keep spending time for it.  I totally fucked up my last promising chance in Singapore. Now it's time to go back to the basement and reorganize myself to make new plans for life.
