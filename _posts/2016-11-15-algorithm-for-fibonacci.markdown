@@ -62,11 +62,6 @@ The first 4 elements of fibonacci can be indicated as the matrix;
 
 
 
-<!--
-
-
-
-
 
 
 Then, the matrix to the power of n is;
@@ -81,6 +76,7 @@ screen-shot-2016-11-15-at-4-10-01-pm
 
 We can implement fibonacci with time complexity O(N) like below.
 
+{% highlight java %}
 public class MatrixON {
     public int fibonacci(int n) {
         int[][] arrA = {{1,1},{1,0}};
@@ -112,6 +108,8 @@ public class MatrixON {
         arrA[1][1] = z;
     }
 }
+{% endhighlight %}
+
 Let's squeeze little bit more. This method can be optimized to work in O(logN) time complexity. We can do recursive multiplication to get matrixPower(int[][] arrA, int n) in the previous method.
 
 This idea comes from the fomula;
@@ -128,6 +126,7 @@ screen-shot-2016-11-15-at-4-51-32-pm
 
 This can be expressed using Java code;
 
+{% highlight java %}
 public class MatrixOlogN {
     public int fibonacci(int n) {
         int[][] arrA = {{1,1},{1,0}};
@@ -162,4 +161,6 @@ public class MatrixOlogN {
         arrA[1][1] = z;
     }
 }
-So this is what I should have submitted. One thing that consolable is I couldn't have written it even if I had been aware of the time complexity requirement. I was given an hour for the test but it actually took several hours to understand this linear algebra way. But I regret that I was overestimated my knowledge of algorithm. Practicing algorithm is a kind of daily work-out for programmers and I feel I've been getting more confident for programming since I started practicing it. Failures of coding test always gets me frustrated and have a doubt whether I should keep spending time for it.  I totally fucked up my last promising chance in Singapore. Now it's time to go back to the basement and reorganize myself to make new plans for life. -->
+{% endhighlight %}
+
+So this is what I should have submitted. One thing that consolable is I couldn't have written it even if I had been aware of the time complexity requirement. I was given an hour for the test but it actually took several hours to understand this linear algebra way. But I regret that I was overestimated my knowledge of algorithm. Practicing algorithm is a kind of daily work-out for programmers and I feel I've been getting more confident for programming since I started practicing it. Failures of coding test always gets me frustrated and have a doubt whether I should keep spending time for it.  I totally fucked up my last promising chance in Singapore. Now it's time to go back to the basement and reorganize myself to make new plans for life.
