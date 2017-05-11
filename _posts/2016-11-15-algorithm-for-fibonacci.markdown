@@ -57,7 +57,7 @@ By the way, how can I implement of fibonacci with time complexity O(logN)? Hones
 
 The first 4 elements of fibonacci can be indicated as the matrix;
 
-<img src="/assets/screen-shot-2016-11-15-at-3-57-19-pm.png" width="500px">
+<img src="/assets/screen-shot-2016-11-15-at-3-57-19-pm.png" width="200px">
 <br/>
 
 
@@ -66,7 +66,9 @@ The first 4 elements of fibonacci can be indicated as the matrix;
 
 Then, the matrix to the power of n is;
 
-screen-shot-2016-11-15-at-4-10-01-pm
+<img src="/assets/screen-shot-2016-11-15-at-4-10-01-pm.png" width="200px">
+<br/>
+
 
 
 
@@ -76,7 +78,7 @@ screen-shot-2016-11-15-at-4-10-01-pm
 
 We can implement fibonacci with time complexity O(N) like below.
 
-<img src="/assets/Screen Shot 2017-05-11 at 1.56.16 PM.png" width="500px">
+<img src="/assets/Screen Shot 2017-05-11 at 1.56.16 PM.png" width="600px">
 <br/>
 
 
@@ -86,18 +88,26 @@ Let's squeeze little bit more. This method can be optimized to work in O(logN) t
 
 This idea comes from the fomula;
 
-screen-shot-2016-11-15-at-4-38-57-pm
+<img src="/assets/screen-shot-2016-11-15-at-4-38-57-pm.png" width="200px">
+<br/>
+
+
 
 Therefore the matrix can be;
 
-screen-shot-2016-11-15-at-4-39-50-pm
+<img src="/assets/screen-shot-2016-11-15-at-4-39-50-pm.png" width="200px">
+<br/>
 
-Keeping dividing with half(n/2) until n became 1, then we can get Fn from the matrix. The upper fomula is when n is even, and the under fomula is used when n is odd because of loosing 1 when n is divided by 2.
 
-screen-shot-2016-11-15-at-4-51-32-pm
+Keeping dividing with half(n/2) until n became 1, then we can get Fn from the matrix. The upper fomula is when n is even, and the under formula is used when n is odd because of loosing 1 when n is divided by 2.
+
+<img src="/assets/screen-shot-2016-11-15-at-4-51-32-pm.png" width="200px">
+<br/>
+
 
 This can be expressed using Java code;
 
-
+<img src="/assets/Screen Shot 2017-05-11 at 1.54.46 PM.png" width="600px">
+<br/>
 
 So this is what I should have submitted. One thing that consolable is I couldn't have written it even if I had been aware of the time complexity requirement. I was given an hour for the test but it actually took several hours to understand this linear algebra way. But I regret that I was overestimated my knowledge of algorithm. Practicing algorithm is a kind of daily work-out for programmers and I feel I've been getting more confident for programming since I started practicing it. Failures of coding test always gets me frustrated and have a doubt whether I should keep spending time for it.  I totally fucked up my last promising chance in Singapore. Now it's time to go back to the basement and reorganize myself to make new plans for life.
