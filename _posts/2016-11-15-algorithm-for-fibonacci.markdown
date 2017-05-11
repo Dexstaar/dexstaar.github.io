@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Algorithm for Fibonacci"
-date:   2016-11-06 19:55:16 +0800
+date:   2016-11-15 19:55:16 +0800
 categories: Programming
 ---
 
