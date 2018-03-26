@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "OOP and Funational Prgramming in JavaScript"
+title:  "OOP and FP in JavaScript"
 date:   2018-03-25 19:55:16 +0800
 categories: Programming
 ---
@@ -10,7 +10,7 @@ JavaScript has characters of both Object Oriented Programming (OOP) and Function
 
 [OOP]
 
-First of all, There are the fetures comes from OOP.
+First of all, There are the features come from OOP.
 
 # Objects
 Better knowns as classes in most OOP and functions in JS.
@@ -35,7 +35,7 @@ In JavaScript, this inheritance has been implemented using prototype and extends
 
 - prototype
 
-{% highlight javascript %}
+{% highlight java %}
 function Person() {
   this.eyes = 2;
   this.nose = 1;
