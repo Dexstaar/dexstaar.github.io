@@ -35,6 +35,8 @@ In JavaScript, this inheritance has been implemented using prototype and extends
 
 - prototype
 
+https://medium.com/@bluesh55/javascript-prototype-이해하기-f8e67c286b67
+
 {% highlight javascript %}
 function Person() {
   this.eyes = 2;
@@ -61,6 +63,8 @@ console.log(kim.eyes); // => 2
 ...
 {% endhighlight %}
 
+
+자바스크립트에는 Prototype Link 와 Prototype Object라는 것이 존재합니다. 그리고 이 둘을 통틀어 Prototype이라고 부릅니다.
 
 
 - extends
