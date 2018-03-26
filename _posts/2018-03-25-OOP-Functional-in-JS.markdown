@@ -48,6 +48,20 @@ console.log(park.eyes); // => 2
 console.log(park.nose); // => 1
 {% endhighlight %}
 
+kim과 park은 eyes와 nose를 공통적으로 가지고 있는데, 메모리에는 eyes와 nose가 두 개씩 총 4개 할당됩니다. 객체를100개 만들면 200개의 변수가 메모리에 할당되겠죠?
+바로 이런 문제를 프로토타입으로 해결할 수 있습니다.
+
+{% highlight javascript %}
+function Person() {}
+Person.prototype.eyes = 2;
+Person.prototype.nose = 1;
+var kim  = new Person();
+var park = new Person():
+console.log(kim.eyes); // => 2
+...
+{% endhighlight %}
+
+
 
 - extends
 
