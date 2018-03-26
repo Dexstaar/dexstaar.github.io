@@ -12,16 +12,3 @@ Since I took a journey to South East Asia in 2016, I've found that Singapore is 
 
 Github: {% include icon-github.html username="dexstaar" %}
 Email / Hangouts: - dexstaar@gmail.com
-
-
-
-<!--
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll) -->

@@ -35,7 +35,7 @@ In JavaScript, this inheritance has been implemented using prototype and extends
 
 - prototype
 
-{% highlight java %}
+{% highlight javascript %}
 function Person() {
   this.eyes = 2;
   this.nose = 1;
