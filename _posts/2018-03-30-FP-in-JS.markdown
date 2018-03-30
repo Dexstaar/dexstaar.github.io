@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Funtional Programming in JavaScript"
+date:   2018-03-30 19:55:16 +0800
+categories: Programming
+---
+
+
+
+
+[Functional Programming]
+
+# Map / Reduce / Filter
+
+# Pure Functions
+
+
+# Immutability
+
+
+# Higher Order Functions

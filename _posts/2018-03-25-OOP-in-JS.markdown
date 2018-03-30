@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "OOP and FP in JavaScript"
+title:  "OOP in JavaScript"
 date:   2018-03-25 19:55:16 +0800
 categories: Programming
 ---
@@ -68,21 +68,3 @@ console.log(kim.eyes); // => 2
 
 
 - extends
-
-
-
-
-
-
-
-[Functional Programming]
-
-# Map / Reduce / Filter
-
-# Pure Functions
-
-
-# Immutability
-
-
-# Higher Order Functions
