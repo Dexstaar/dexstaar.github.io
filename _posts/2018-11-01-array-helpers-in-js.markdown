@@ -20,17 +20,19 @@ for (var i=0; i<colors.length; i++) {
 colors.forEach(color => {
   console.log(color);
 });
-
 {% endhighlight %}
 
-map
 
-filter
 
-find
 
-every
+# map
 
-some
+# filter
 
-reduce
+# find
+
+# every
+
+# some
+
+# reduce
