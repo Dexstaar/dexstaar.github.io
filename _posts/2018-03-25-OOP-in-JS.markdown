@@ -5,12 +5,12 @@ date:   2018-03-25 19:55:16 +0800
 categories: Programming
 ---
 
-JavaScript has characters of both Object Oriented Programming (OOP) and Functional Programming (FP).
+
+In Object Oriented Programming, everything is based on class so that we can inherit 블라블라
+However, in JavaScript, there is prototype that we can set up the inheritance.
+This's why JavaScript is called a prototype based language.
 
 
-[OOP]
-
-First of all, There are the features come from OOP.
 
 # Objects
 Better knowns as classes in most OOP and functions in JS.
@@ -20,21 +20,7 @@ We normally use object literals or constructor functions to create objects.
 
 
 
-
-# Encapsulation
-Encapsulation refers to enclosing all the functionalities of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application. This allows us to abstract or localize specific set of functionalities on objects.
-
-
-
-
-# Inheritance
-Inheritance refers to an object being able to inherit methods and properties from a parent object.
-In JavaScript, this inheritance has been implemented using prototype and extends (ES6).
-
-
-
-- prototype
-
+# Prototype
 https://medium.com/@bluesh55/javascript-prototype-이해하기-f8e67c286b67
 
 {% highlight javascript %}
@@ -67,4 +53,12 @@ console.log(kim.eyes); // => 2
 자바스크립트에는 Prototype Link 와 Prototype Object라는 것이 존재합니다. 그리고 이 둘을 통틀어 Prototype이라고 부릅니다.
 
 
-- extends
+
+
+# Class, Extends in ES6
+https://gomugom.github.io/is-class-only-a-syntactic-sugar/
+
+
+
+# Encapsulation
+Encapsulation refers to enclosing all the functionalities of an object within that object so that the object’s internal workings (its methods and properties) are hidden from the rest of the application. This allows us to abstract or localize specific set of functionalities on objects.
