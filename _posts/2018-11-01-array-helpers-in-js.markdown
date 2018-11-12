@@ -96,7 +96,7 @@ var products = [
 // Type is 'vegetable', quantity is greater than 0, price is less than 10
 products.filter(product => {
   return product.type === 'vegetable'
-  	&& product.quantity > 0 
+  	&& product.quantity > 0
   	&& product.price < 10;
 });
 {% endhighlight %}
@@ -123,6 +123,44 @@ commentsForPost(post, comments);
 
 
 # find
+{% highlight javascript %}
+var users = [
+  { name: 'Jill' },
+  { name: 'Alex' },
+  { name: 'Bill' }
+];
+var user;
+
+for (var i=0; i<users.length; i++) {
+  if (users[i].name === 'Alex') {
+    user = users[i];
+    break;
+  }
+}
+
+users.find(user => {
+  return user.name === 'Alex';
+});
+{% endhighlight %}
+
+
+{% highlight javascript %}
+var posts = [
+  { id: 1, title: 'New Post'},
+  { id: 2, title: 'Old Post' }
+];
+
+var comment = { postId: 1, content: 'Great Post' };
+
+function postForComment(posts, comment) {
+  return posts.find(function(post) {
+    return post.id === comment.postId;
+  });
+}
+
+postForComment(posts, comment);
+{% endhighlight %}
+
 
 # every
 
