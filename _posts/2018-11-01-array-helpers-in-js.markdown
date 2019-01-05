@@ -274,15 +274,15 @@ primaryColors.reduce(function(previous, primaryColor) {
 {% endhighlight %}
 
 {% highlight javascript %}
-var primaryColors = [
-  {color: 'red'},
-  {color: 'yellow'},
-  {color: 'blue'}
-];
+function balancedParens(string) {
+  return !string.split("").reduce(function(previous, char) {
+    if (previous < 0) { return previous; }
+    if (char === "(") { return ++previous;}
+    if (char === ")") { return --previous;}
+    
+    return previous;
+  }, 0);
+}
 
-primaryColors.reduce(function(previous, primaryColor) {
-  previous.push(primaryColor.color);
-  
-  return previous;
-}, []);
+balancedParens("(()())");
 {% endhighlight %}
