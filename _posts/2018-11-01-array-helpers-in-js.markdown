@@ -57,9 +57,9 @@ prices;
 
 
 
-# filter
+### filter
 
-* Example 1
+#### Example 1
 
 Using 'For'
 {% highlight javascript %}
@@ -99,7 +99,7 @@ result
 {% endhighlight %}
 
 
-* Example 2
+#### Example 2
 
 
 {% highlight javascript %}
