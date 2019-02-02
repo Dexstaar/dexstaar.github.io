@@ -148,7 +148,8 @@ commentsForPost(post, comments);
 ### Find
 #### Example 1
 
-Given array
+Find an object {name:'Alex'} from the given array
+
 {% highlight javascript %}
 var users = [
   { name: 'Jill' },
