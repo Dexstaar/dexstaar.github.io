@@ -8,7 +8,7 @@ categories: Programming
 
 There are array helper methods that help us handle array data structure from ES6 in JavaScript.
 
-## foreach
+## forEach
 
 {% highlight javascript %}
 var colors = ['red', 'blue', 'green' ];
@@ -55,7 +55,7 @@ prices;
 
 
 
-## Filter
+## filter
 
 #### Example 1
 
@@ -137,7 +137,7 @@ commentsForPost(post, comments);
 
 
 
-## Find
+## find
 #### Example 1
 
 Find an object {name:'Alex'} from the given array
