@@ -57,7 +57,7 @@ prices;
 
 
 
-### filter
+### Filter
 
 #### Example 1
 
@@ -139,13 +139,21 @@ commentsForPost(post, comments);
 
 
 
-# find
+### Find
+#### Example 1
+
+Given array
 {% highlight javascript %}
 var users = [
   { name: 'Jill' },
   { name: 'Alex' },
   { name: 'Bill' }
 ];
+{% endhighlight %}
+
+
+Using 'For'
+{% highlight javascript %}
 var user;
 
 for (var i=0; i<users.length; i++) {
@@ -155,10 +163,24 @@ for (var i=0; i<users.length; i++) {
   }
 }
 
-users.find(user => {
+console.log(user);
+{% endhighlight %}
+
+Using 'Find'
+{% highlight javascript %}
+const user2 = users.find(user => {
   return user.name === 'Alex';
 });
+
+console.log(user2);
 {% endhighlight %}
+
+Result
+{% highlight javascript %}
+{name: "Alex"}
+{% endhighlight %}
+
+#### Example 2
 
 
 {% highlight javascript %}
