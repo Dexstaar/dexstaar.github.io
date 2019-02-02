@@ -8,7 +8,7 @@ categories: Programming
 
 There are array helper methods that help us handle array data structure from ES6 in JavaScript.
 
-# foreach
+## foreach
 
 {% highlight javascript %}
 var colors = ['red', 'blue', 'green' ];
@@ -23,15 +23,7 @@ colors.forEach(color => {
 {% endhighlight %}
 
 
-# This is 1
-## This is 2
-### This is 3
-#### This is 4
-
-
-
-
-# map
+## map
 {% highlight javascript %}
 var numbers = [1,2,3];
 var doubledNumbers = [];
@@ -63,7 +55,7 @@ prices;
 
 
 
-### Filter
+## Filter
 
 #### Example 1
 
@@ -145,7 +137,7 @@ commentsForPost(post, comments);
 
 
 
-### Find
+## Find
 #### Example 1
 
 Find an object {name:'Alex'} from the given array
@@ -208,7 +200,7 @@ postForComment(posts, comment);
 {% endhighlight %}
 
 
-# every / some
+## every / some
 
 {% highlight javascript %}
 var computers = [
@@ -287,9 +279,7 @@ if (formIsValid) {
 
 
 
-
-
-# reduce
+## reduce
 const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
 {% highlight javascript %}
@@ -333,7 +323,8 @@ function balancedParens(string) {
 balancedParens("(()())");
 {% endhighlight %}
 
-- Custom Unique Helper
+
+## Custom Unique Helper
 
 Write a function that will remove all the duplicate values from array
 
