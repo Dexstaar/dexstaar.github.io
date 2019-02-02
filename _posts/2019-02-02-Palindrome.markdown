@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Palindrome"
-date:   2019-02-02 19:55:16 +0800
+date:   2019-02-02 20:55:16 +0800
 categories: Programming
 ---
 
@@ -12,7 +12,7 @@ form the same word if it is reversed. *Do* include spaces
 and punctuation in determining if the string is a palindrome.
 
 # Examples:
-palindrome("abba") === true
+palindrome("abba") === true <br/>
 palindrome("abcdefg") === false
 
 # solution 1
