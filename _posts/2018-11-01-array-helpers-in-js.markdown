@@ -244,7 +244,7 @@ if (formIsValid) {
 
 
 # reduce
-
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
 {% highlight javascript %}
 var numbers = [10, 20, 30];
@@ -285,4 +285,21 @@ function balancedParens(string) {
 }
 
 balancedParens("(()())");
+{% endhighlight %}
+
+- Custom Unique Helper
+Write a function that will remove all the duplicate values from array
+
+For example, given the following array
+var numbers = [1, 1, 2, 3, 4, 4];
+your function should return
+[1, 2, 3, 4]
+{% highlight javascript %}
+function unique(array) {
+  return array.reduce((acc, elem) => {
+      if(!acc.find(accElem => {return accElem === elem })) acc.push(elem);
+      
+      return acc;
+  }, [])
+}
 {% endhighlight %}
