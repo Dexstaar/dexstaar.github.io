@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reverse String"
+title:  "Palindrome"
 date:   2019-02-02 19:55:16 +0800
 categories: Programming
 ---
