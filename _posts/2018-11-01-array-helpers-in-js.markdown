@@ -93,7 +93,7 @@ console.log(filteredProducts2);
 
 result
 {% highlight javascript %}
-[ { name: "banana", type: "fruit" }, { name: "orange", type: "fruit }]
+[ { name: "banana", type: "fruit" }, { name: "orange", type: "fruit" }]
 {% endhighlight %}
 
 

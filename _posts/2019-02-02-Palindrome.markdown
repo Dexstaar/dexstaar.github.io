@@ -27,5 +27,9 @@ function palindrome(str) {
 
 # solution 2
 {% highlight javascript %}
-
+function palindrome(str) {
+    return str.split('').every((elem, i) => {
+        return elem === str[str.length-i-1];
+    });
+}
 {% endhighlight %}
