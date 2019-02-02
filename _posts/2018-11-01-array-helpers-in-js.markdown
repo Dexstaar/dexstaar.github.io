@@ -288,6 +288,7 @@ balancedParens("(()())");
 {% endhighlight %}
 
 - Custom Unique Helper
+
 Write a function that will remove all the duplicate values from array
 
 For example, given the following array
