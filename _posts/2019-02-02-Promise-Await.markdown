@@ -1,5 +1,4 @@
 
-
 # Promise 
 Promise
    => Resolved => then
@@ -32,8 +31,10 @@ fetch(url)
 
 
 # Async / Await
+Await function should return Pormise.
+
 {% highlight javascript %}
-function printlog() {
+function resolveAfter2Seconds() {
     return new Promise(resolve => {
         setTimeout(() => {
         resolve('resolved');
@@ -42,10 +43,10 @@ function printlog() {
 }
 
 async function asyncCall() {
-  console.log('before');
-  var result = await printlog();
+  console.log('before await');
+  var result = await resolveAfter2Seconds();
   console.log(result);
-  console.log('after');
+  console.log('after await');
 }
 
 asyncCall();
