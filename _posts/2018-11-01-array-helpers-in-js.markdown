@@ -59,6 +59,9 @@ prices;
 
 # filter
 
+* Example 1
+
+Using 'For'
 {% highlight javascript %}
 var products = [
   { name: 'cucumber', type: 'vegetable' },
@@ -75,14 +78,28 @@ for (var i=0; i<products.length; i++) {
   }
 }
 
-filteredProducts;
+console.log(filteredProducts);
+{% endhighlight %}
+
+
+Using array helper 'filter'
+{% highlight javascript %}
 
 var filteredProducts2 = products.filter(product => {
   return product.type === 'fruit';
 });
 
-filteredProducts2;
+console.log(filteredProducts2);
 {% endhighlight %}
+
+
+result
+{% highlight javascript %}
+[ { name: "banana", type: "fruit" }, { name: "orange", type: "fruit }]
+{% endhighlight %}
+
+
+* Example 2
 
 
 {% highlight javascript %}

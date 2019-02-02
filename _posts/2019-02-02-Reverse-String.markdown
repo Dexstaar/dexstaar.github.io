@@ -37,5 +37,7 @@ function reverse(str) {
 
 # solution 3
 function reverse(str) {
-  return str.split("").reduce((reversed, elem) => elem + reversed);
+  return str.split('').reduce((acc, elem) => {
+    return elem + acc;
+  }, '');
 }
