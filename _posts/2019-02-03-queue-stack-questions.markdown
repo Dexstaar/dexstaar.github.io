@@ -5,6 +5,7 @@ date:   2019-02-03 00:00:01 +0800
 categories: Programming
 ---
 
+# Class
 {% highlight javascript %}
 class Car {
   constructor({title}) {
@@ -15,7 +16,12 @@ class Car {
     return 'vroom';
   }
 }
+
+const car = new Car({ title: 'Toyota' });
+console.log(car);
+console.log(car.drive());
 {% endhighlight %}
+
 
 <!-- ## Queue
 {% highlight javascript %}
