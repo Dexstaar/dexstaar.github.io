@@ -5,7 +5,7 @@ date:   2019-02-03 19:55:16 +0800
 categories: Programming
 ---
 
-## Queue
+# Queue
 {% highlight javascript %}
 function reverse(str) {
   let reversed = '';
