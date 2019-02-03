@@ -29,7 +29,7 @@ class Queue {
 
 
 
-## Weave
+<!-- ## Weave
 #### Directions
 1) Complete the task in weave/queue.js<br/>
 2) Implement the 'weave' function.
@@ -103,9 +103,9 @@ class Stack {
      const q = new Queue();
      q.add(1);
      q.add(2);
-     q.peek();   returns 1
-     q.remove();  returns 1
-     q.remove();  returns 2
+     q.peek();   // returns 1
+     q.remove();  // returns 1
+     q.remove();  // returns 2
 {% endhighlight %}
 
 #### Solution
@@ -134,4 +134,4 @@ constructor() {
   peek() {
     return this.main.peek();
   }
-{% endhighlight %}
+{% endhighlight %} -->
