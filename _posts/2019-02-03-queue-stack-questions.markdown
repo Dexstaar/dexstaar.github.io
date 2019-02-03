@@ -13,13 +13,14 @@ class Queue {
 		this.data = [];
 	}
 
-	push(record) {
-		this.data.push(record);
-	}
+	add(record) {
+    // Adding a record to the start of array
+    this.data.unshift(record);
+  }
 
-	pop() {
-		return this.data.pop();
-	}
+	remove() {
+    return this.data.pop();
+  }
 
 	peek() {
 		return this.data[this.data.length - 1];
