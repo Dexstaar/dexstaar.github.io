@@ -6,7 +6,7 @@ categories: Programming
 ---
 
 ## Queue
-{% highlight javascript %}
+{% highlight java %}
 class Car {
   constructor({title}) {
     this.title = title;
