@@ -6,7 +6,8 @@ categories: Programming
 ---
 
 ## Queue
-Implementing Queue using array
+Implementing Queue using array<br/>
+
 {% highlight javascript %}
 class Stack {
 	constructor() {
