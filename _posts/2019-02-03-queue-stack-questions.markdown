@@ -5,24 +5,41 @@ date:   2019-02-03 19:55:16 +0800
 categories: Programming
 ---
 
-## Queue
+
+# Directions
+Given a string, return a new string with the reversed order of characters
+
+# Examples
+reverse('apple') === 'leppa' <br/>
+reverse('hello') === 'olleh' <br/>
+reverse('Greetings!') === '!sgniteerG'
+
+# solution 1
 {% highlight javascript %}
-class Queue {
-  constructor() {
-    this.data = [];
-  }
+function reverse(str) {
+  let reversed = '';
 
-  add(record) {
-    this.data.unshift(record);
-  }
+  str.split('').forEach(elem => {
+    reversed = elem + reversed;
+  });
 
-  remove() {
-    return this.data.pop();
-  }
+  return reversed;
+}
+{% endhighlight %}
 
-  peek() {
-    return this.data[this.data.length -1];
-  }
+# solution 2
+{% highlight javascript %}
+function reverse(str) {
+  return str.split('').reverse().join('');
+}
+{% endhighlight %}
+
+# solution 3
+{% highlight javascript %}
+function reverse(str) {
+  return str.split('').reduce((acc, elem) => {
+    return elem + acc;
+  }, '');
 }
 {% endhighlight %}
 
