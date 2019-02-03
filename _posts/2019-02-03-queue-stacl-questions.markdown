@@ -5,8 +5,10 @@ date:   2019-02-03 00:00:01 +0800
 categories: Programming
 ---
 
-## Queue
-<!-- {% highlight javascript %}
+WTF 
+
+<!-- ## Queue
+{% highlight javascript %}
 class Queue {
   constructor() {
     this.data = [];
