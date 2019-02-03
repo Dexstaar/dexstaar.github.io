@@ -20,6 +20,23 @@ class reverse(str) {
 }
 {% endhighlight %}
 
+{% highlight javascript %}
+class Queue {
+  constructor() {
+    this.data = [];
+  }
+
+  add(record) {
+    // Adding a record to the start of array
+    this.data.unshift(record);
+  }
+
+  remove() {
+    return this.data.pop();
+  }
+}
+{% endhighlight %}
+
 
 
 # Directions
