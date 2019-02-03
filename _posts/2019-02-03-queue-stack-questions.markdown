@@ -39,7 +39,14 @@ The function should handlequeues of different lengths without inserting 'undefin
  For a reminder on what each method does, look back
  at the Queue exercise.
 #### Examples
-
+{% highlight javascript %}
+     const q = new Queue();
+     q.add(1);
+     q.add(2);
+     q.peek();   // returns 1
+     q.remove();  // returns 1
+     q.remove();  // returns 2
+{% endhighlight %}
 
 #### Solution
 {% highlight javascript %}
