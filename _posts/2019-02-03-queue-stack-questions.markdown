@@ -9,7 +9,7 @@ categories: Programming
 ## Queue
 
 {% highlight javascript %}
-function reverse(str) {
+class reverse(str) {
   let reversed = '';
 
   str.split('').forEach(elem => {
