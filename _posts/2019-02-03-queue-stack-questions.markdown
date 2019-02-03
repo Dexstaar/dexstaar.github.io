@@ -43,7 +43,8 @@ The function should handlequeues of different lengths without inserting 'undefin
 
 #### Solution
 {% highlight javascript %}
-constructor() {
+class Queue {
+  constructor() {
     this.main = new Stack();
     this.sub = new Stack();
   }
@@ -67,4 +68,5 @@ constructor() {
   peek() {
     return this.main.peek();
   }
+}
 {% endhighlight %}
