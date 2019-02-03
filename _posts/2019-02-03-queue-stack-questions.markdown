@@ -7,25 +7,16 @@ categories: Programming
 
 
 ## Queue
-aaa
+
 {% highlight javascript %}
-class Queue {
-  constructor() {
-    this.data = [];
-  }
+function reverse(str) {
+  let reversed = '';
 
-  add(record) {
-    // Adding a record to the end of array
-    this.data.unshift(record);
-  }
+  str.split('').forEach(elem => {
+    reversed = elem + reversed;
+  });
 
-  remove() {
-    return this.data.pop();
-  }
-
-  peek() {
-    return this.data[this.data.length -1];
-  }
+  return reversed;
 }
 {% endhighlight %}
 
