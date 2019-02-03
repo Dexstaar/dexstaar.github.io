@@ -16,6 +16,10 @@ class Car {
     return 'vroom';
   }
 }
+
+const car = new Car({ title: 'Toyota' });
+console.log(car);
+console.log(car.drive());
 {% endhighlight %}
 
 
