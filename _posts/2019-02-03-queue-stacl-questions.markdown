@@ -5,7 +5,9 @@ date:   2019-02-03 00:00:01 +0800
 categories: Programming
 ---
 
+{% highlight javascript %}
 WTF 
+{% endhighlight %}
 
 <!-- ## Queue
 {% highlight javascript %}
