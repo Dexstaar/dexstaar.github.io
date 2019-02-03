@@ -6,17 +6,13 @@ categories: Programming
 ---
 
 {% highlight javascript %}
-class Queue {
-  constructor() {
-    this.data = [];
+class Car {
+  constructor({title}) {
+    this.title = title;
   }
 
-  add(record) {
-    this.data.unshift(record);
-  }
-
-  remove() {
-    return this.data.pop();
+  drive() {
+    return 'vroom';
   }
 }
 {% endhighlight %}
