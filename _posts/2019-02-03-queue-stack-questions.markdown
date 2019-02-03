@@ -7,18 +7,13 @@ categories: Programming
 
 ## Queue
 {% highlight javascript %}
-class Queue {
-  constructor() {
-    this.data = [];
+class Car {
+  constructor({title}) {
+    this.title = title;
   }
 
-  add(record) {
-    // Adding a record to the start of array
-    this.data.unshift(record);
-  }
-
-  remove() {
-    return this.data.pop();
+  drive() {
+    return 'vroom';
   }
 }
 {% endhighlight %}
