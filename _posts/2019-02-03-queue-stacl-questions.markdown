@@ -12,7 +12,6 @@ class Queue {
   }
 
   add(record) {
-    // Adding a record to the end of array
     this.data.unshift(record);
   }
 
