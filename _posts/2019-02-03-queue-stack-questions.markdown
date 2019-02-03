@@ -6,20 +6,24 @@ categories: Programming
 ---
 
 ## Queue
-Implementing Queue using array<br/>>
+Implementing Queue using array
 {% highlight javascript %}
-class Queue {
-  constructor() {
-    this.data = [];
-  }
+class Stack {
+	constructor() {
+		this.data = [];
+	}
 
-  add(record) {
-    this.data.unshift(record);
-  }
+	push(record) {
+		this.data.push(record);
+	}
 
-  remove() {
-    return this.data.pop();
-  }
+	pop() {
+		return this.data.pop();
+	}
+
+	peek() {
+		return this.data[this.data.length - 1];
+	}
 }
 {% endhighlight %}
 
