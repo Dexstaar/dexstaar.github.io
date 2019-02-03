@@ -8,13 +8,9 @@ categories: Programming
 # Queue
 {% highlight javascript %}
 function reverse(str) {
-  let reversed = '';
-
-  str.split('').forEach(elem => {
-    reversed = elem + reversed;
-  });
-
-  return reversed;
+  return str.split('').reduce((acc, elem) => {
+    return elem + acc;
+  }, '');
 }
 {% endhighlight %}
 
