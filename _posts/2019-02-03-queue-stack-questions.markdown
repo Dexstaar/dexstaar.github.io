@@ -35,7 +35,7 @@ The function should handlequeues of different lengths without inserting 'undefin
  *Do not* access the array inside of any queue, only
  use the 'add', 'remove', and 'peek' functions.
 #### Example
-{% highlight javascript %}
+<!-- {% highlight javascript %}
     const queueOne = new Queue();
     queueOne.add(1);
     queueOne.add(2);
@@ -47,10 +47,10 @@ The function should handlequeues of different lengths without inserting 'undefin
     q.remove()  'Hi'
     q.remove()  2
     q.remove()  'There'
-{% endhighlight %}
+{% endhighlight %} -->
 
 #### Solution
-{% highlight javascript %}
+<!-- {% highlight javascript %}
 function weave(sourceOne, sourceTwo) {
     let weaved = new Queue();
 
@@ -61,12 +61,12 @@ function weave(sourceOne, sourceTwo) {
 
     return weaved;
 }
-{% endhighlight %}
+{% endhighlight %} -->
 
 
 
 ## Stack
-{% highlight javascript %}
+<!-- {% highlight javascript %}
 class Stack {
 	constructor() {
 		this.data = [];
@@ -84,7 +84,7 @@ class Stack {
 		return this.data[this.data.length - 1];
 	}
 }
-{% endhighlight %}
+{% endhighlight %} -->
 
 
 ## Queue From Stacks
@@ -95,17 +95,17 @@ class Stack {
  For a reminder on what each method does, look back
  at the Queue exercise.
 #### Examples
-{% highlight javascript %}
+<!-- {% highlight javascript %}
      const q = new Queue();
      q.add(1);
      q.add(2);
      q.peek();   // returns 1
      q.remove();  // returns 1
      q.remove();  // returns 2
-{% endhighlight %}
+{% endhighlight %} -->
 
 #### Solution
-{% highlight javascript %}
+<!-- {% highlight javascript %}
 constructor() {
     this.main = new Stack();
     this.sub = new Stack();
@@ -130,7 +130,7 @@ constructor() {
   peek() {
     return this.main.peek();
   }
-{% endhighlight %}
+{% endhighlight %} -->
 
 
 
