@@ -5,23 +5,18 @@ date:   2019-02-03 19:55:16 +0800
 categories: Programming
 ---
 
-<!-- ## Queue
+## Queue
 {% highlight javascript %}
-class Queue {
-  constructor() {
-    this.data = [];
-  }
+function reverse(str) {
+  let reversed = '';
 
-  add(record) {
-    // Adding a record to the start of array
-    this.data.unshift(record);
-  }
+  str.split('').forEach(elem => {
+    reversed = elem + reversed;
+  });
 
-  remove() {
-    return this.data.pop();
-  }
+  return reversed;
 }
-{% endhighlight %} -->
+{% endhighlight %}
 
 
 # Directions
