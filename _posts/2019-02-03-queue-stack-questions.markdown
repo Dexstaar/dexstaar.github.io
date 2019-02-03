@@ -7,7 +7,7 @@ categories: Programming
 
 ## Queue
 
-{% highlight javascript %}
+{% highlight %}
 class Queue {
 	constructor() {
 		this.data = [];
