@@ -5,8 +5,7 @@ date:   2019-02-03 19:55:16 +0800
 categories: Programming
 ---
 
-
-## Queue
+# Queue
 <!-- {% highlight javascript %}
 class Queue {
   constructor() {
@@ -106,7 +105,7 @@ class Stack {
 {% endhighlight %}
 
 #### Solution
-<!-- {% highlight javascript %}
+{% highlight javascript %}
 constructor() {
     this.main = new Stack();
     this.sub = new Stack();
@@ -131,7 +130,7 @@ constructor() {
   peek() {
     return this.main.peek();
   }
-{% endhighlight %} -->
+{% endhighlight %}
 
 
 
