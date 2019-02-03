@@ -7,7 +7,7 @@ categories: Programming
 
 
 ## Queue
-{% highlight javascript %}
+<!-- {% highlight javascript %}
 class Queue {
   constructor() {
     this.data = [];
@@ -22,7 +22,7 @@ class Queue {
     return this.data.pop();
   }
 }
-{% endhighlight %}
+{% endhighlight %} -->
 
 
 
@@ -106,7 +106,7 @@ class Stack {
 {% endhighlight %}
 
 #### Solution
-{% highlight javascript %}
+<!-- {% highlight javascript %}
 constructor() {
     this.main = new Stack();
     this.sub = new Stack();
@@ -131,7 +131,7 @@ constructor() {
   peek() {
     return this.main.peek();
   }
-{% endhighlight %}
+{% endhighlight %} -->
 
 
 
