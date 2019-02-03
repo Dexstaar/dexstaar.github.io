@@ -35,8 +35,10 @@ function reverse(str) {
 {% endhighlight %}
 
 # solution 3
+{% highlight javascript %}
 function reverse(str) {
   return str.split('').reduce((acc, elem) => {
     return elem + acc;
   }, '');
 }
+{% endhighlight %}
