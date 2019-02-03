@@ -14,7 +14,7 @@ class Queue {
 	}
 
 	add(record) {
-    this.data.unshift(record); // Adding a record to the start of array
+    this.data.unshift(record);
   }
 
 	remove() {
