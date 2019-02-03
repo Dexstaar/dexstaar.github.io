@@ -6,7 +6,7 @@ categories: Programming
 ---
 
 ## Queue
-{% highlight javascript %}
+<!-- {% highlight javascript %}
 class Queue {
   constructor() {
     this.data = [];
@@ -25,7 +25,7 @@ class Queue {
     return this.data[this.data.length -1];
   }
 }
-{% endhighlight %}
+{% endhighlight %} -->
 
 
 
