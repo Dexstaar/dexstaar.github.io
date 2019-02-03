@@ -9,18 +9,6 @@ categories: Programming
 ## Queue
 
 {% highlight javascript %}
-class reverse(str) {
-  let reversed = '';
-
-  str.split('').forEach(elem => {
-    reversed = elem + reversed;
-  });
-
-  return reversed;
-}
-{% endhighlight %}
-
-{% highlight javascript %}
 class Queue {
   constructor() {
     this.data = [];
