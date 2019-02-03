@@ -13,7 +13,7 @@ class Queue {
 		this.data = [];
 	}
 
-  add(record) {
+	add(record) {
     this.data.unshift(record);
   }
 
