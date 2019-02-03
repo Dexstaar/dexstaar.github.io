@@ -7,10 +7,19 @@ categories: Programming
 
 ## Queue
 {% highlight javascript %}
-function reverse(str) {
-  return str.split('').reduce((acc, elem) => {
-    return elem + acc;
-  }, '');
+class Queue {
+  constructor() {
+    this.data = [];
+  }
+
+  add(record) {
+    // Adding a record to the start of array
+    this.data.unshift(record);
+  }
+
+  remove() {
+    return this.data.pop();
+  }
 }
 {% endhighlight %}
 
