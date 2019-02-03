@@ -5,26 +5,8 @@ date:   2019-02-03 00:00:01 +0800
 categories: Programming
 ---
 
-# Class
 
-{% highlight javascript %}
-class Car {
-  constructor({title}) {
-    this.title = title;
-  }
-
-  drive() {
-    return 'vroom';
-  }
-}
-
-const car = new Car({ title: 'Toyota' });
-console.log(car);
-console.log(car.drive());
-{% endhighlight %}
-
-
-<!-- ## Queue
+## Queue
 {% highlight javascript %}
 class Queue {
   constructor() {
@@ -32,23 +14,19 @@ class Queue {
   }
 
   add(record) {
-    // Adding a record to the end of array
+    // Adding a record to the start of array
     this.data.unshift(record);
   }
 
   remove() {
     return this.data.pop();
   }
-
-  peek() {
-    return this.data[this.data.length -1];
-  }
 }
-{% endhighlight %} -->
+{% endhighlight %}
 
 
 
-<!-- ## Weave
+## Weave
 #### Directions
 1) Complete the task in weave/queue.js<br/>
 2) Implement the 'weave' function.
@@ -153,4 +131,4 @@ constructor() {
   peek() {
     return this.main.peek();
   }
-{% endhighlight %} -->
+{% endhighlight %}
