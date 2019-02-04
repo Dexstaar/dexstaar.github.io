@@ -8,9 +8,9 @@ categories: Programming
 
 
 # Promise 
-Promise
-   => Resolved => then
-   => rejected => catch
+Promise <br/>
+   => Resolved => then <br/>
+   => rejected => catch <br/>
 
 {% highlight javascript %}
 let promise = new Promise((resolve, reject) => {
