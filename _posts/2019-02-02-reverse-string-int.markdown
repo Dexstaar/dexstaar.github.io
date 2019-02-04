@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Reverse String"
+title:  "Reverse String / Integer"
 date:   2019-02-02 19:55:16 +0800
 categories: Programming
 ---
 
+## Reverse String
 
 # Directions
 Given a string, return a new string with the reversed order of characters
@@ -40,5 +41,28 @@ function reverse(str) {
   return str.split('').reduce((acc, elem) => {
     return elem + acc;
   }, '');
+}
+{% endhighlight %}
+
+
+
+## Reverse Integer
+#### Directions
+Given an integer, return an integer that is the reverse ordering of numbers.
+#### Examples
+{% highlight javascript %}
+reverseInt(15) === 51
+reverseInt(981) === 189
+reverseInt(500) === 5
+reverseInt(-15) === -51
+reverseInt(-90) === -9
+{% endhighlight %}
+
+#### Solution
+{% highlight javascript %}
+function reverseInt(n) {
+    const reversed = n.toString().split('').reverse().join('');
+
+    return parseInt(reversed) * Math.sign(n);
 }
 {% endhighlight %}
