@@ -43,7 +43,7 @@ function reverse(str) {
   }, '');
 }
 {% endhighlight %}
-
+<br/><br/><br/><br/>
 
 
 ## Reverse Integer
