@@ -4,9 +4,9 @@ title: Programming
 permalink: /programming/
 ---
 
+{% assign category = page.category | default: page.title %}
+
 <ul class="post-list">
-  
-  {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
     <li>
       
