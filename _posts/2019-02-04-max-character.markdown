@@ -2,7 +2,7 @@
 layout: post
 title:  "Max Character"
 date:   2019-02-04 19:55:16 +0800
-categories: Programming
+categories: Algorithm
 ---
 
 #### Directions
