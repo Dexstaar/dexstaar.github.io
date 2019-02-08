@@ -2,7 +2,7 @@
 layout: post
 title:  "Promise and Async/Await"
 date:   2019-02-02 19:55:16 +0800
-categories: Programming
+categories: JavaScript
 ---
 
 

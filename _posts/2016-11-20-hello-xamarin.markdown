@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello Xamarin"
 date:   2016-11-20 19:55:16 +0800
-categories: Programming
+categories: Others
 ---
 
 

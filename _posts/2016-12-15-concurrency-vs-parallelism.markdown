@@ -2,7 +2,7 @@
 layout: post
 title:  "Concurrency vs Parallelism"
 date:   2016-12-03 19:55:16 +0800
-categories: Programming
+categories: Others
 ---
 
 

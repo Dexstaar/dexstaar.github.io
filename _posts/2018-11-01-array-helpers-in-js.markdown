@@ -2,7 +2,7 @@
 layout: post
 title:  "Array helpers in JavaScript"
 date:   2018-11-01 00:00:01 +0800
-categories: Programming
+categories: JavaScript
 ---
 
 
