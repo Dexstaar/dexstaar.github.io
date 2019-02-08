@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Programming
-permalink: /programming/
+layout: home
+title: JavaScript
+permalink: /javascript/
 ---
 
 <ul class="post-list">
