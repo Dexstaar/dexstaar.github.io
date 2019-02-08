@@ -2,7 +2,7 @@
 layout: post
 title:  "Reverse String / Integer"
 date:   2019-02-02 19:55:16 +0800
-categories: Programming
+categories: Altorithm
 ---
 
 ## Reverse String

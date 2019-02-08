@@ -2,7 +2,7 @@
 layout: post
 title:  "What's new in Java 8: Lambda"
 date:   2016-10-13 19:55:16 +0800
-categories: Programming
+categories: Others
 ---
 
 It seems little late to talk about new features in Java 8 at this point of time, it's been already 2 years since it's released and people are talking about Java 9. There are 2 types of Java developers either who are interested and studying 8 but still not using it in production environment or already switched to Scala in response to the necessity of functional programming when I was talking to people in Java related meetups here in Singapore. Due to the late response of changing world, Java 8 seems to be hanging, able to be neither. It's treated like a subject of study for late adapters or an obsolete one for early functional programming adapters.

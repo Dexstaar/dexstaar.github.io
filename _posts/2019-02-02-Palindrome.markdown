@@ -2,7 +2,7 @@
 layout: post
 title:  "Palindrome"
 date:   2019-02-02 20:55:16 +0800
-categories: Programming
+categories: Algorithm
 ---
 
 # Directions
