@@ -66,4 +66,74 @@ function weave(sourceOne, sourceTwo) {
     return weaved;
 }
 {% endhighlight %}
+<br/><br/>
 
+
+## Stack
+{% highlight javascript %}
+class Stack {
+	constructor() {
+		this.data = [];
+	}
+
+	push(record) {
+		this.data.push(record);
+	}
+
+	pop() {
+		return this.data.pop();
+	}
+
+	peek() {
+		return this.data[this.data.length - 1];
+	}
+}
+{% endhighlight %}
+
+
+## Queue From Stacks
+#### Directions
+ Implement a Queue datastructure using two stacks.
+ *Do not* create an array inside of the 'Queue' class.
+ Queue should implement the methods 'add', 'remove', and 'peek'.
+ For a reminder on what each method does, look back
+ at the Queue exercise.
+#### Examples
+{% highlight javascript %}
+     const q = new Queue();
+     q.add(1);
+     q.add(2);
+     q.peek();   // returns 1
+     q.remove();  // returns 1
+     q.remove();  // returns 2
+{% endhighlight %}
+
+#### Solution
+{% highlight javascript %}
+class Queue {
+  constructor() {
+    this.main = new Stack();
+    this.sub = new Stack();
+  }
+
+  add(element) {
+    while (this.main.peek()) {
+      this.sub.push(this.main.pop());
+    }
+
+    this.main.push(element);
+
+    while (this.sub.peek()) {
+      this.main.push(this.sub.pop());
+    }
+  }
+
+  remove() {
+    return this.main.pop();
+  }
+
+  peek() {
+    return this.main.peek();
+  }
+}
+{% endhighlight %}
