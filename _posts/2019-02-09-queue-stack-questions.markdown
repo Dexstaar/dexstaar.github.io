@@ -6,7 +6,7 @@ categories: Algorithm
 ---
 
 
-## Queue
+Queue
 {% highlight javascript %}
 class Queue {
     constructor() {
