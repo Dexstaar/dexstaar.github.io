@@ -5,5 +5,13 @@ date:   2019-02-09 00:00:01 +0800
 categories: Algorithm
 ---
 
-## Abcde
-Hello World!!
+## Queue
+{% highlight javascript %}
+function anagrams(stringA, stringB) {
+    return cleanString(stringA) === cleanString(stringB);
+}
+
+function cleanString(str) {
+    return str.replace(/[^\w]/g, '').split('').sort().join('');
+}
+{% endhighlight %}
