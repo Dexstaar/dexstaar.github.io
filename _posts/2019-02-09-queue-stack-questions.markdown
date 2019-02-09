@@ -10,11 +10,21 @@ There is a bug on either Github page or Jekyll. It causes a build error if you w
 
 ## Queue
 {% highlight javascript %}
-function anagrams(stringA, stringB) {
-    return cleanString(stringA) === cleanString(stringB);
-}
+class Queue {
+    constructor() {
+        this.data = [];
+    }
 
-function cleanString(str) {
-    return str.replace(/[^\w]/g, '').split('').sort().join('');
+    add(record) {
+        this.data.unshift(record);
+    }
+
+    remove() {
+        return this.data.pop();
+    }
+
+    peek() {
+        return this.data[this.data.length - 1];
+    }
 }
 {% endhighlight %}
