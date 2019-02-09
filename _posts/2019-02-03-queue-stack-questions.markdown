@@ -7,20 +7,18 @@ categories: Algorithm
 
 ## Queue
 {% highlight javascript %}
-class Queue {
-  constructor() {
-    this.data = [];
-  }
-
-  add(record) {
-    // Adding a record to the start of array
-    this.data.unshift(record);
-  }
-
-  remove() {
-    return this.data.pop();
-  }
+function Car(options) {
+  this.title = options.title;
 }
+
+Car.prototype.drive = function() {
+  return 'vroom';
+}
+
+const car = new Car({ title: 'Focus' });
+
+console.log(car.drive());
+console.log(car);
 {% endhighlight %}
 
 
