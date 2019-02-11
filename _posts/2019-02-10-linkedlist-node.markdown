@@ -180,7 +180,7 @@ class LinkedList {
 <br/><br/>
 
 
-## Linked List
+## Mid Point
 #### Directions
 Return the 'middle' node of a linked list.
 If the list has an even number of elements, return
@@ -195,6 +195,7 @@ l.insertLast('b');<br/>
 l.insertLast('c');<br/>
 midpoint(l); // returns { data: 'b' } <br/>
 
+#### Solution
 {% highlight javascript %}
 function midpoint(list) {
     let slow = list.getFirst();
@@ -206,5 +207,41 @@ function midpoint(list) {
     }
 
     return slow;
+}
+{% endhighlight %}
+
+
+<br/><br/>
+
+
+## Circular
+#### Directions
+Given a linked list, return true if the list
+is circular, false if it is not.
+#### Examples
+const l = new List(); <br/>
+const a = new Node('a'); <br/>
+const b = new Node('b');<br/>
+const c = new Node('c');<br/>
+l.head = a;<br/>
+a.next = b;<br/>
+b.next = c;<br/>
+c.next = b;<br/>
+circular(l) // true<br/>
+
+#### Solution
+{% highlight javascript %}
+function circular(list) {
+    let slow = list.getFirst();
+    let fast = list.getFirst();
+
+    while(fast.next && fast.next.next) {
+        slow = slow.next;
+        fast = fast.next.next;
+
+        if(slow === fast) return true;
+    }
+
+    return false;
 }
 {% endhighlight %}
