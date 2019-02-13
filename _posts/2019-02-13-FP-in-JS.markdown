@@ -1,0 +1,145 @@
+---
+layout: post
+title:  "Funtional Programming in JavaScript"
+date:   2019-02-13 19:55:16 +0800
+categories: JavaScript
+---
+
+
+
+
+## Functional Programming
+Functional Programming is a paradigm that emphasis combination and dislike side-effects. <br/>
+* dislike side-effect => make pure function <br/>
+* emphasis combination => enhance modulization <br/>
+
+## Pure Function
+Pure function is a function that always returns same output when it receive same input without side-effect.
+
+#### Example of Pure Function
+{% highlight javascript %}
+function add(a, b) {
+    return a + b;
+}
+
+console.log( add(10, 5) ); // 15
+console.log( add(10, 5) ); // 15
+console.log( add(10, 5) ); // 15
+{% endhighlight %}
+
+#### Example of Not Pure Function
+Although same input, but when the value of c changes, returns different result.
+{% highlight javascript %}
+var c = 10;
+function add2(a, b) {
+    return a + b + c;
+}
+
+console.log( add(10, 2) ); // 22
+console.log( add(10, 3) ); // 23
+console.log( add(10, 4) ); // 24
+c = 20;
+console.log( add2(10, 2) ); // 32
+console.log( add2(10, 3) ); // 33
+console.log( add2(10, 4) ); // 34
+{% endhighlight %}
+
+{% highlight javascript %}
+var c = 20;
+function add3(a, b) {
+     c = b;
+    return a + b;
+}
+
+console.log('c: ', c);      // c: 20
+console.log(add3(20, 30));  // 50
+console.log('c: ', c);      // c: 30
+{% endhighlight %}
+
+#### Converting Not Pure Function to Pure Function
+Not Pure Function
+{% highlight javascript %}
+var obj1 = { val: 10 };
+function add4(obj, b) {
+    obj.val += b;
+}
+
+console.log(obj1.val);  // 10
+add4(obj1, 20);
+console.log(obj1.val);  // 30
+{% endhighlight %}
+
+Pure Function
+{% highlight javascript %}
+var obj1 = { val: 10 };
+function add5(obj, b) {
+    return { val: obj.val + b }
+}
+
+console.log( obj1.val );    // 10
+var obj2 = add5(obj1, 20);
+console.log( obj1.val );    // 10
+console.log( obj2.val );    // 30
+{% endhighlight %}
+<br/><br/><br/>
+
+
+
+
+
+
+## First-class Function
+Variable can have function.
+
+{% highlight javascript %}
+var f1 = function(a) { return a * a; };
+console.log(f1);
+
+var f2 = add;
+console.log(f2);
+
+function f3(f) {
+    return f();
+}
+console.log( f3(function() { return 10;}) );
+{% endhighlight %}
+
+#### Example 1
+add_maker is a function that returns a function.
+
+{% highlight javascript %}
+function add_maker(a) {
+    return function(b) { // this is first-class function, closure and pure function
+        return a + b;
+    }
+}
+
+var add10 = add_marker(10);
+
+console.log( add10(20) ); // 30
+{% endhighlight %}
+
+#### Example 2
+{% highlight javascript %}
+function f4(f1, f2, f3) {
+    return f3(f1() + f2());
+}
+
+console.log( f4(
+    function() { return 2; },
+    function() { return 1; }.
+    function() { return a * a; }
+) ); // 9
+{% endhighlight %}
+<br/><br/><br/>
+
+
+## Map / Reduce / Filter
+
+
+
+
+## Immutability
+
+
+## Higher Order Functions
