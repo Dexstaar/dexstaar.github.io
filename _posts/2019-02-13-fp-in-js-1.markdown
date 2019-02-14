@@ -1,0 +1,305 @@
+---
+layout: post
+title:  "Funtional Programming in JavaScript 1"
+date:   2019-02-13 19:55:16 +0800
+categories: JavaScript
+---
+
+
+
+
+## Functional Programming
+Functional Programming is a paradigm that emphasis combination and dislike side-effects. <br/>
+* dislike side-effect => make pure function <br/>
+* emphasis combination => enhance modulization <br/>
+
+Object-oriented programmers and functional programmers will often see and solve a problem in different ways. Whereas an object-oriented mindset will foster the approach of defining an application domain as a set of nouns (classes), the functional mind will see the solution as the composition or verbs (functions). - Joy of Closure,  Michael Fogus
+{% highlight javascript %}
+// OOP Style
+duck.moveLeft();
+duck.moveRight();
+dog.moveLeft();
+dog.moveRight();
+
+// FP Style
+moveLeft(dog);
+moveRight(duck);
+moveLeft({ x: 5, y: 2});
+moveRight(dog);
+{% endhighlight %}
+<br/><br/>
+
+## Pure Function
+Pure function is a function that always returns same output when it receive same input without side-effect.
+
+#### Example of Pure Function
+{% highlight javascript %}
+function add(a, b) {
+    return a + b;
+}
+
+console.log( add(10, 5) ); // 15
+console.log( add(10, 5) ); // 15
+console.log( add(10, 5) ); // 15
+{% endhighlight %}
+
+#### Example of Not Pure Function
+Although same input, but when the value of c changes, returns different result.
+{% highlight javascript %}
+var c = 10;
+function add2(a, b) {
+    return a + b + c;
+}
+
+console.log( add(10, 2) ); // 22
+console.log( add(10, 3) ); // 23
+console.log( add(10, 4) ); // 24
+c = 20;
+console.log( add2(10, 2) ); // 32
+console.log( add2(10, 3) ); // 33
+console.log( add2(10, 4) ); // 34
+{% endhighlight %}
+
+{% highlight javascript %}
+var c = 20;
+function add3(a, b) {
+     c = b;
+    return a + b;
+}
+
+console.log('c: ', c);      // c: 20
+console.log(add3(20, 30));  // 50
+console.log('c: ', c);      // c: 30
+{% endhighlight %}
+
+#### Converting Not Pure Function to Pure Function
+Not Pure Function
+{% highlight javascript %}
+var obj1 = { val: 10 };
+function add4(obj, b) {
+    obj.val += b;
+}
+
+console.log(obj1.val);  // 10
+add4(obj1, 20);
+console.log(obj1.val);  // 30
+{% endhighlight %}
+
+Pure Function
+{% highlight javascript %}
+var obj1 = { val: 10 };
+function add5(obj, b) {
+    return { val: obj.val + b }
+}
+
+console.log( obj1.val );    // 10
+var obj2 = add5(obj1, 20);
+console.log( obj1.val );    // 10
+console.log( obj2.val );    // 30
+{% endhighlight %}
+<br/><br/><br/>
+
+
+
+
+
+
+## First-class Function
+Variable can have function.
+
+{% highlight javascript %}
+var f1 = function(a) { return a * a; };
+console.log(f1);
+
+var f2 = add;
+console.log(f2);
+
+function f3(f) {
+    return f();
+}
+console.log( f3(function() { return 10;}) );
+{% endhighlight %}
+
+#### Example 1
+add_maker is a function that returns a function.
+
+{% highlight javascript %}
+function add_maker(a) {
+    return function(b) { // this is first-class function, closure and pure function
+        return a + b;
+    }
+}
+
+var add10 = add_marker(10);
+
+console.log( add10(20) ); // 30
+{% endhighlight %}
+
+#### Example 2
+{% highlight javascript %}
+function f4(f1, f2, f3) {
+    return f3(f1() + f2());
+}
+
+console.log( f4(
+    function() { return 2; },
+    function() { return 1; }.
+    function() { return a * a; }
+) ); // 9
+{% endhighlight %}
+<br/><br/><br/>
+
+
+## Map / Reduce / Filter
+This is an Example how to convert imperative code to functional one.
+
+#### given data
+{% highlight javascript %}
+var users = [
+    { id: 1, name: 'ID', age: 36 },
+    { id: 2, name: 'BJ', age: 32 },
+    { id: 3, name: 'JM', age: 32 },
+    { id: 4, name: 'PJ', age: 27 },
+    { id: 5, name: 'HA', age: 25 },
+    { id: 6, name: 'JE', age: 26 },
+    { id: 7, name: 'JI', age: 31 },
+    { id: 8, name: 'MP', age: 23 }
+];
+{% endhighlight %}
+
+#### imperative code
+{% highlight javascript %}
+// 1. filter users that ages are over 30
+var temp_users = [];
+for(var i=0; i<users.length; i++) {
+    if (users[i].age >= 30) {
+        temp_users.push(users[i]);
+    }
+}
+console.log(temp_users);
+
+// 2. collect name of users that ages are over 30
+var names = [];
+for (var i=0l i<temp_users.length; i++) {
+    names.push(temp_users[i].name);
+}
+
+// 3. filter users that gaes are under 30
+var temp_users = [];
+for (var i=0; i<users.length; i++) {
+    if (users[i].age < 30) {
+        temp_users.push(users[i]);
+    }
+}
+console.log(temp_users);
+
+// 4. collect ages of users that ages are under 30
+var ages = [];
+for (var i=0; i<temp_users.length; i++) {
+    ages.push(temp_users[i].age);
+}
+console.log(ages);
+{% endhighlight %}
+
+#### Refactor using _filter, _map
+{% highlight javascript %}
+function _filter(list, predicate) {
+    var new_list = [];
+
+    for(var i=0; i<list.length; i++) {
+        if(predicate(list[i])) {
+            new_list.push(list[i]);
+        }
+    }
+
+    return new_list;
+}
+
+function _map(list, mapper) {
+    var new_list = [];
+
+    for(var i=0; i < list.length; i++) {
+        new_list.push(mapper(list[i]));
+    }
+    return new_list;
+}
+
+// 1. filter users that ages are over 30
+var over_30 = _filter(users, function(user) { return user.age >= 30; });
+console.log(over_30);
+
+// 2. collect name of users that ages are over 30
+var names = _map(over_30, function(user) { return user.name; });
+console.log(names);
+
+// this can be expressed with combination of the functions
+console.log( 
+    _map(
+        _filter(users, function(user) { return user.age >= 30; }),
+        function(user) {return user.name;}
+    )
+);
+
+// 3. filter users that gaes are under 30
+var under_30 = _filter(users, function(user) { return user.age < 30; });
+console.log(under_30);
+
+// 4. collect ages of users that ages are under 30
+var ages = _map(under_30, function(user) { return user.age; });
+console.log(ages);
+
+// this can be expressed with combination of the functions
+console.log( 
+    _map(
+        _filter(users, function(user) { return user.age < 30; }),
+        function(user) {return user.age;}
+    )
+);
+{% endhighlight %}
+
+<br/>
+There are still duplicated codes in _filter and _map functions like "for" and "list[i]" and these can be more concised.
+
+{% highlight javascript %}
+function _filter(list, predicate) {
+    var new_list = [];
+
+    _each(list, function(val) {
+        if(predicate(val)) new_list.push(val);
+    });
+
+    return new_list;
+}
+
+function _map(list, mapper) {
+    var new_list = [];
+
+    _each(list, function(val) {
+        new_list.push(mapper(val));
+    });
+    
+    return new_list;
+}
+
+function _each(list, iterator) {
+    for (var i=0; i < list.length; i++) {
+        iterator(list[i]);
+    }
+
+    return list;
+}
+
+{% endhighlight %}
+
+
+#### Is ES6 array helper
+ES6 Array helpers like map, helper is not pure functions but array method. so the results will be differenct based on condition of objects.
+
+* Method
+- belongs to class. In other words, only can be used for the class.
+
+
+## Immutability
+
+
+## Higher Order Functions
