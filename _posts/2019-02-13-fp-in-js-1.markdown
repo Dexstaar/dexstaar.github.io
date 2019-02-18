@@ -292,11 +292,29 @@ function _each(list, iterator) {
 {% endhighlight %}
 
 
-#### Is ES6 array helper
-ES6 Array helpers like map, helper is not pure functions but array method. so the results will be differenct based on condition of objects.
+#### Is ES6 array helper a function? (2-3)
+ES6 Array helpers like map, helper is not pure functions but array method. 
+the results will be differenct based on condition of objects.
+methods are defined in the class so they can be used the intance of class. 
+only can be used for array.
 
-* Method
-- belongs to class. In other words, only can be used for the class.
+For example, the below code returns error
+{% highlight javascript %}
+console.log(
+    document.querySelectorAll('*').map(function(node) {
+        return node.nodeName;
+    })
+);
+{% endhighlight %}
+
+Whereas, the pure function defined before can be used for any other array like objects
+{% highlight javascript %}
+console.log(
+    _map(document.querySelectorAll('*'), function(node) {
+        return node.nodeName;
+    })
+);
+{% endhighlight %}
 
 
 ## Immutability
