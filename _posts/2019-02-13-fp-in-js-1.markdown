@@ -292,11 +292,9 @@ function _each(list, iterator) {
 {% endhighlight %}
 
 
-#### Is ES6 array helper a function? (2-3)
-ES6 Array helpers like map, helper is not pure functions but array method. 
-the results will be differenct based on condition of objects.
-methods are defined in the class so they can be used the intance of class. 
-only can be used for array.
+#### Is ES6 array helper a function?
+ES6 Array helpers(e.g map, filter) are not pure functions but array method and only can be used for array.
+Methods are defined in the class. Thus, they can be used the intance of class and the result is be differenct based on condition of objects.
 
 For example, the below code returns error
 {% highlight javascript %}
@@ -307,7 +305,7 @@ console.log(
 );
 {% endhighlight %}
 
-Whereas, the pure function defined before can be used for any other array like objects
+Whereas, the pure function that is defined before can be used for any other array like objects
 {% highlight javascript %}
 console.log(
     _map(document.querySelectorAll('*'), function(node) {
@@ -315,6 +313,78 @@ console.log(
     })
 );
 {% endhighlight %}
+
+
+## Currying
+currying is the technique of translating the evaluation of a function that takes multiple arguments into evaluating a sequence of functions, each with a single argument. 
+
+
+{% highlight javascript %}
+function _curry(fn) {
+    return function(a, b) {
+        return (arguments.length === 2) ? fn(a, b) : function(b) { return fn(a,b); };
+    }
+}
+
+function _curryr(fn) {
+    return function(a, b) {
+        return arguments.length == 2 ? fn(a, b) : function(b) { return fn(b, a); };
+    }
+}
+
+var add = _curry(function(a, b) {
+    return a + b;
+});
+
+var add10 = add(10);
+var add5 = add(5);
+console.log( add10(5) );    // result: 15
+console.log( add(10)(3) );  // result: 15
+console.log( add5(3) );     // result: 8
+console.log( add(5)(3) );   // result: 8
+console.log( add(1,2) );    // result: 3
+
+var sub = _curryr(function(a,b) {
+    return a - b;
+});
+
+console.log( sub(10, 5) );  // result: 5
+
+var sub10 = sub(10);
+console.log( sub10(5) );    // result: -5
+
+{% endhighlight %}
+
+
+
+#### Making "_get" function using currying
+{% highlight javascript %}
+function _get(obj, key) {
+    return obj === null ? undefined : obj[key];
+}
+
+var user1 = users[0];
+console.log(user1.name);
+console.log(_get(user1, 'name'));
+
+console.log(users[10].name);            // returns error
+console.log(_get(users[10], 'name'));   // return: undefined
+{% endhighlight %}
+
+This function can be converted to currying
+{% highlight javascript %}
+var _get = _curryr(function(obj, key) {
+    return obj === null ? undefined : obj[key];
+});
+
+var user1 = users[0];
+console.log(_get('name')(user1));   // result: ID
+
+var get_name = _get('name');
+console.log( get_name(user1) );     // result: ID 
+
+{% endhighlight %}
+
 
 
 ## Immutability
