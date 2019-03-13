@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Steps"
+date:   2019-03-05 01:01:01 +0800
+categories: JavaScript
+---
+
+
+## Directions
+Write a function that accepts a positive number N.
+The function should console log a step shape
+with N levels using the # character.  Make sure the
+step has spaces on the right hand side!
+<br/><br/>
+
+## Examples
+  steps(2)<br/>
+      '# '<br/>
+      '##'<br/>
+  steps(3)<br/>
+      '#  '<br/>
+      '## '<br/>
+      '###'<br/>
+  steps(4)<br/>
+      '#   '<br/>
+      '##  '<br/>
+      '### '<br/>
+      '####'<br/>
+<br/><br/>
+
+
+
+
+## Solution 1
+{% highlight javascript %}
+
+{% endhighlight %}
+
+<br/><br/>
+
+## Solution 2
+{% highlight javascript %}
+
+{% endhighlight %}
+
+
+
+
+

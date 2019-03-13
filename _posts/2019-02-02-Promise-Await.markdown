@@ -14,8 +14,11 @@ Promise <br/>
 
 {% highlight javascript %}
 let promise = new Promise((resolve, reject) => {
-    resolve();
-    //reject();
+    if(condition) {
+        resolve();
+    } else {
+        reject();
+    }
 });
 
 promise
