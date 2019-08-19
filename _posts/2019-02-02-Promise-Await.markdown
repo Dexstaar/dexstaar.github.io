@@ -28,6 +28,27 @@ promise
 {% endhighlight %}
 
 
+{% highlight javascript %}
+function getData() {
+  return new Promise(function (resolve, reject) {
+    $.get('url/products/1', function (response) {
+      if (response) {
+        resolve(response);
+      }
+      reject(new Error("Request is failed"));
+    });
+  });
+}
+
+// Fulfilled or Rejected
+getData().then(function (data) {
+  console.log(data); // response 
+}).catch(function (err) {
+  console.error(err); // Error 
+});
+{% endhighlight %}
+
+
 # Examples of Promise
 Ajax Request with Fetch
 
